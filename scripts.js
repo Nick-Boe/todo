@@ -2,7 +2,6 @@ const button = document.getElementsByClassName("enter")[0];
 let input = document.getElementsByClassName("userinput")[0];
 const ul = document.getElementById("allItems");
 let li = document.getElementsByTagName("li")[0];
-console.log(bg);
 let listLength = ul.childElementCount;
 let active = li;
 let removing;
